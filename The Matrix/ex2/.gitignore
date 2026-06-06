@@ -1,0 +1,17 @@
+# Ignore real .env files so secrets are never committed to version control.
+# Use .env.example as a safe template instead.
+.env
+
+# Ignore generated analysis output
+matrix_analysis.png
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+matrix_env/
+venv/
+.venv/
+env/
